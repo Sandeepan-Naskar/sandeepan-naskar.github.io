@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.66557e85.css",
-    "main.js": "/static/js/main.874d2d69.js",
+    "main.js": "/static/js/main.7c6adb35.js",
     "static/js/453.04a5011a.chunk.js": "/static/js/453.04a5011a.chunk.js",
     "static/media/grad1.jfif": "/static/media/grad1.7d612eea79b367198110.jfif",
     "static/media/flat-lay-workstation-with-copy-space-laptop.jpg": "/static/media/flat-lay-workstation-with-copy-space-laptop.583f9770da86d597af18.jpg",
@@ -103,11 +103,11 @@
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
     "main.66557e85.css.map": "/static/css/main.66557e85.css.map",
-    "main.874d2d69.js.map": "/static/js/main.874d2d69.js.map",
+    "main.7c6adb35.js.map": "/static/js/main.7c6adb35.js.map",
     "453.04a5011a.chunk.js.map": "/static/js/453.04a5011a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.66557e85.css",
-    "static/js/main.874d2d69.js"
+    "static/js/main.7c6adb35.js"
   ]
 }
