@@ -13,7 +13,10 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 import { GiArchiveResearch } from "react-icons/gi";
+import { PiCalendarPlusDuotone } from "react-icons/pi";
 import { HiMiniPencilSquare } from "react-icons/hi2";
+import { IoMdPhotos } from "react-icons/io";
+import { PiPaintBrushBold } from "react-icons/pi";
 import { MdFlight, MdQuiz } from "react-icons/md";
 import { CgFileDocument } from "react-icons/cg";
 
@@ -121,7 +124,7 @@ function NavBar() {
                 to="/extra_curriculars"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                <PiCalendarPlusDuotone
                   style={{ marginBottom: "2px" }}
                 />{" "}
                   Extra-Curriculars
@@ -144,7 +147,7 @@ function NavBar() {
                   as={Link}
                   to="/hobbies"
                   onClick={() => updateExpanded(false)}
-                ><MdQuiz style={{ marginBottom: "2px" }}
+                ><PiPaintBrushBold style={{ marginBottom: "2px" }}
                 />{" "}Hobbies
                 </Nav.Link>
               </Nav.Item>
@@ -152,10 +155,10 @@ function NavBar() {
               <Nav.Item> 
                 <Nav.Link
                   as={Link}
-                  to="/travel"
+                  to="/photos"
                   onClick={() => updateExpanded(false)}
-                ><MdFlight style={{ marginBottom: "2px" }}
-              />{" "}Travel
+                ><IoMdPhotos style={{ marginBottom: "2px" }}
+              />{" "}Album
                 </Nav.Link>
               </Nav.Item>
           </NavDropdown>

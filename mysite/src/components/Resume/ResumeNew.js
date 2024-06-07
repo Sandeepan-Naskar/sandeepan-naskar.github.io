@@ -56,12 +56,21 @@ function ResumeNew() {
           <p>
             Page {pageNumber} of {numPages}
           </p>
-          <button type="button" disabled={pageNumber <= 1} onClick={previousPage}>
+          {/* <button type="button" disabled={pageNumber <= 1} onClick={previousPage}>
             Previous
-          </button>
-          <button type="button" disabled={pageNumber >= numPages} onClick={nextPage}>
-            Next
-          </button>
+          </button> */}
+          <Button
+            style={{ maxWidth: "250px", margin: "10px" }}
+            type="button" 
+            disabled={pageNumber <= 1}
+            onClick={previousPage}
+          >Previous</Button>
+          <Button
+            style={{ maxWidth: "250px" }}
+            type="button" 
+            disabled={pageNumber >= numPages} 
+            onClick={nextPage}
+          >Next</Button>
         </div>
         </Row>
 

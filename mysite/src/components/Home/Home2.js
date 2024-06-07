@@ -6,40 +6,24 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="home-about-section" id="about" style={{marginTop:"-150px"}}>
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
             <p className="home-about-body">
-              A small introduction.. <br/><br/>
-              I fell in love with programming and I have at least learnt
-              something, I think… I am fluent in classics like
-                <b className="purple"> C++, Javascript and Go. </b>
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+            A small introduction about myself..
+              <br />
+              <br />
+            I'm an <span className="purple">IIT Bombay graduate</span> with a <span className="purple">Bachelor's degree in Computer Science & Engineering</span> and a <span className="purple">Minor in AI and Data Science</span>. Currently a <span className="purple">software developer at Wells Fargo</span>, I specialize in <span className="purple">full stack development</span>, <span className="purple">reinforcement learning</span>, and <span className="purple">deep learning</span>. My interests include <span className="purple">data-driven astronomy</span>, college <span className="purple">quizzing</span>, and the <span className="purple">finance and quant industry</span>. I love coding with my earphones on, playing my favorite tunes.
+            <br />
+              <br />
+            To know in detail about my journey, please check out the rest of my portfolio. You can also find me on various social media platforms. Feel free to connect with me!
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -48,7 +32,7 @@ function Home2() {
             </Tilt> */}
           </Col>
         </Row>
-        <Row>
+        <Row style={{marginBottom:"-17px"}}>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
@@ -83,6 +67,16 @@ function Home2() {
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="mailto:naskarsandeepan8@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiOutlineMail />
                 </a>
               </li>
             </ul>

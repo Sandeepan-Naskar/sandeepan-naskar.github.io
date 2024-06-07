@@ -48,7 +48,7 @@ function App() {
           <Route path="/courses" element={<Courses />} />
           <Route path="/extra_curriculars" element={<Extra />} />
           <Route path="/hobbies" element={<Hobbies />} />
-          <Route path="/travel" element={<Travel />} />   
+          <Route path="/photos" element={<Travel />} />   
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

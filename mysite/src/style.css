@@ -272,8 +272,31 @@ button:focus {
   z-index: -1;
 }
 
+@media (max-width: 768px) {
+  .home-header {
+    text-align: center;
+    margin-left: -70px;
+    padding: 0 20px;
+  }
+  .heading-name {
+    font-size: 1.5em;
+  }
+  .home-content .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-content .col-md-5 {
+    order: 2;
+  }
+  .home-content .col-md-7 {
+    order: 1;
+  }
+}
+
 .home-header {
   padding-top: 80px !important;
+  margin-left: -70px;
 }
 
 .home-section {
@@ -305,6 +328,7 @@ button:focus {
 
 .main-name {
   color: #cd5ff8;
+  padding-left: -20px !important;
 }
 
 .Typewriter__wrapper {
@@ -424,11 +448,22 @@ button:focus {
 /* --------- */
 /* Footer */
 /* --------- */
+.app-container {
+  display: flex !important;
+  flex-direction: column !important;
+  min-height: 91.7vh !important;
+}
+
+.main-content {
+  flex: 1 !important;
+}
+
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: rgb(10, 4, 22, 0.5);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
+  flex: 0 0 auto !important;
 }
 .footer-copywright {
   text-align: center !important;
@@ -475,6 +510,14 @@ button:focus {
 }
 
 .project-card {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  height: auto !important;
+}
+
+.course-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
   padding-left: 25px !important;
@@ -482,11 +525,17 @@ button:focus {
   height: auto !important;
 }
 
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 2px 2px 2px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
-  opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
@@ -574,7 +623,7 @@ button:focus {
 }
 
 .tech-icons {
-  font-size: 4.5em !important;
+  font-size: 3em !important;
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
@@ -595,7 +644,7 @@ button:focus {
 }
 
 .tech-icons:hover {
-  transform: scale(1.05) !important;
+  transform: scale(1.15) !important;
   overflow: hidden !important;
   border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
