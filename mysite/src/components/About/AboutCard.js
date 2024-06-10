@@ -26,10 +26,6 @@ function AboutCard() {
           Outside of work and academics, I'm always eager to dive into new technologies, hobbies, or complex problems. I thrive on the excitement of discovery and learning. Feel free to reach out to discuss potential opportunities or share our passions for innovation!
           </p>
 
-          {/* <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer> */}
         </blockquote>
       </Card.Body>
     </Card>
