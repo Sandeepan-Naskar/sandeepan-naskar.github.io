@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import me2 from "../../Assets/me2_no_back.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
-import Type from "./Type";
 
 function Home() {
   const styles = {
@@ -33,8 +32,10 @@ function Home() {
               <h1 style={{ marginTop: -30 , marginLeft: -150}}>
                 <pre style={{ textAlign: "center" }}>________</pre>
               </h1>
-              <div style={{ padding: 50, paddingTop: 0, textAlign: "left", fontSize: "0.8em" }}>
-                <Type />
+              <div style={{ padding: 50, paddingTop: 0, textAlign: "left", fontSize: "0.8em" }} className="Typewriter__wrapper">
+                  Software Developer <br/>
+                  AI and Machine Learning Enthusiast <br/>
+                  Astronomy and Physics Geek <br/>
               </div>
             </Col>
           </Row>

@@ -110,7 +110,7 @@ function Projects() {
               isBlog={false}
               title="Image Segmentation using Single Layer Perceptron"
               description="This project focuses on the implementation of a single layer perceptron classifier. A comparitive analysis is performed by a nonlinear transformation of the input data before being fed into the perceptron and the results are compared. This analysis aims to evaluate the effectiveness of polynomial transformation in enhancing the classification performance of the single layer perceptron model with respect to satellite image segmentation."
-              ghLink=""
+              ghLink="https://github.com/Sandeepan-Naskar/Image-Segmentation-using-Single-Layer-Perceptron"
             />
           </Col>
           
@@ -141,7 +141,7 @@ function Projects() {
               isBlog={false}
               title="Rush Hour Puzzle Solver"
               description="Simulated the classical board game Rush Hour, which involves navigating a car in a parking lot maze, as a SAT problem. Constructed relevant Clauses and solved for SAT using Conflict Driven Clause Learning (CDCL) with the Python library Z3py."
-              ghLink=""
+              ghLink="https://github.com/Sandeepan-Naskar/Rush-Hour"
             />
           </Col>
 
@@ -171,7 +171,7 @@ function Projects() {
               isBlog={false}
               title="Study Planner - Android Application"
               description="Developed a study planner application using Android Studio and integrated SQLite for efficient database management. Implemented a side navigation bar to facilitate quick access to various features. Incorporated calendar functionality to enable dynamic addition, deletion, and display of study plans, lecture schedules, exam dates, and assignment deadlines."
-              ghLink="https://github.com/Sandeepan-Naskar/Android"
+              ghLink="https://github.com/Sandeepan-Naskar/Android-Study-Planner-App"
             />
           </Col>
         </Row>
