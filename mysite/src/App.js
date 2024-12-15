@@ -12,7 +12,7 @@ import Extra from "./components/Extra";
 import Hobbies from "./components/Hobbies";
 import Travel from "./components/Travel";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Routes,
   Navigate
